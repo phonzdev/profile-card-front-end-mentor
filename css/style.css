@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #19a2ae;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: -765px -585px, 140px 290px;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.card {
+    width: 328px;
+    height: 376px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 147px auto;
+    text-align: center;
+    position: relative;
+}
+
+.card-pattern img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circle-bg {
+    width: 111px;
+    height: 112px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 110px;
+    top: 72px;
+    border-radius: 50%;
+}
+
+.profile-image img {
+    position: absolute;
+    left: 117px;
+    top: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.profile-info {
+    padding-top: 77px;
+}
+
+.profile-info span {
+    color: #969696;
+    font-weight: 200;
+}
+
+.profile-info h2 {
+    padding-bottom: 17px;
+}
+
+.profile-info p {
+    color:  #969696;
+    font-size: 15px;
+    padding-bottom: 27px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px;
+    border-top: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.stats p {
+    color:  #969696;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-position: -600px -510px, 350px 370px;
+    }
+
+    .card {
+        width: 352px;
+    }
+
+    .circle-bg {
+        left: 120px;
+        top: 86px;
+    }
+
+    .profile-image img {
+        left: 128px;
+        top: 94px;
+    }
+
+}
+
+@media (min-width: 1366px) {
+    body {
+        background-position: -320px -510px, 650px 370px;
+    }
+
+    .card {
+        width: 352px;
+    }
+
+    .circle-bg {
+        left: 120px;
+        top: 86px;
+    }
+
+    .profile-image img {
+        left: 128px;
+        top: 94px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-position: -300px -510px, 700px 350px;
+    }
+
+    .card {
+        width: 352px;
+    }
+
+    .circle-bg {
+        left: 120px;
+        top: 86px;
+    }
+
+    .profile-image img {
+        left: 128px;
+        top: 94px;
+    }
+}
+
